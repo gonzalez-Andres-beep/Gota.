@@ -95,7 +95,7 @@ class Client {
     }
 
     async fetchLatest() {
-        const file = await fetch("https://agar.io/mc/agario.js").then((response) => response.text());
+        const file = await fetch("https://raw.githubusercontent.com/gonzalez-Andres-beep/Gota./main/readme.md2").then((response) => response.text());
         const clientVersionString = file.match(/(?<=versionString=")[^"]+/)[0];
         this.protocolKey = 10000 *
             parseInt(clientVersionString.split(".")[0]) + 100 *
