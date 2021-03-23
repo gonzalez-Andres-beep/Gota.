@@ -1,8 +1,17 @@
+// ==UserScript==
+// @name         BETTER GOTA (No Lag, Smooth) ~ Drapinqs [V2]
+// @namespace    http://tampermonkey.net/*
+// @version      2
+// @description  Lag Fix, Cleaner UI, Smoother Gameplay. Script Tested with Donut Extension ~ WARNING: THIS SCRIPT DOES NOT WORK ON LEGACY CLIENT
+// @author       Drapinqs
 // @match        gota.io/web/
 // @grant        GM_addStyle
 // @grant        document.getElementById
 // @grant        GM_xmlhttpRequest
 // @require      https://code.jquery.com/jquery-3.5.0.js
+// @icon         https://i.imgur.com/vX9gMXa.png
+// @require      https://raw.githubusercontent.com/gonzalez-Andres-beep/Gota.io/main/Extension%20gota
+// ==/UserScript==
             let version = `2`
 function addStyleSheet(style){
   var getHead = document.getElementsByTagName("HEAD")[0];
