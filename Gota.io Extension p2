@@ -10,7 +10,6 @@
 // @grant        GM_xmlhttpRequest
 // @icon         https://bug.png
 // @require      https://code.jquery.com/jquery-3.5.0.js
-// @require      https://raw.githubusercontent.com/gonzalez-Andres-beep/Gota.io/main/Extension%20gota
 // ==/UserScript==
             let version = `2`
 function addStyleSheet(style){
