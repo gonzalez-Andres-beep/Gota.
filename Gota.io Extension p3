@@ -23,16 +23,6 @@ $("#umdiscord").css({
     "text-align": "center"
 });
 
-$("#main-content").append('<a id="trailyt" href="https://discord.gg/fyRBPGc" target="_blank">Mr Clan</a>');
-$("#trailyt").css({
-    "border-style": "solid",
-    "border-width": "1px",
-    "border-color": "red",
-    "background-color": "rgba(23, 22, 23, 0)",
-    "border-radius": "15px",
-    "padding": "0 10px 3px 10px",
-    "color": "red",
-    "font-size": "20px",
     "text-align": "center"
 });
 
