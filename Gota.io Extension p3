@@ -37,8 +37,6 @@ $("#trailyt").css({
 });
 
 GM_addStyle ('* body {cursor: url(http://i.imgur.com/inmtCDl.png)16 16, auto;}');
-
-$("#main-content").append('<div id="version"><p>Version: 0.4.0<br>Report Bugs On My Discord ()</p><div>');
 $("#version").css({
     "text-align":"center",
     "font-size":"12px",
