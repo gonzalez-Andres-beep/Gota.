@@ -21,9 +21,6 @@ $("#server-tab-ap").css({
     "color":"orange"
 });
 
-$('#btn-spectate').text('Expectador');
-$('#btn-theme').text('Tema');
-$('#btn-login').text('Iniciar Sesion');
 $('#btn-options').text('Opciones');
 $('#btn-play').text('Mr Spawn');
 $('#btn-servers').text('Servidores');
