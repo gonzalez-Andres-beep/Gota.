@@ -22,14 +22,3 @@ $("#umdiscord").css({
     "font-size": "20px",
     "text-align": "center"
 });
-
-    "text-align": "center"
-});
-
-GM_addStyle ('* body {cursor: url(http://i.imgur.com/inmtCDl.png)16 16, auto;}');
-$("#version").css({
-    "text-align":"center",
-    "font-size":"12px",
-    "color":"white",
-    "margin-top":"3px"
-});
