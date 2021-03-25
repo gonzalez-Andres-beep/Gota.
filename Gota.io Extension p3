@@ -22,7 +22,7 @@ $("#umdiscord").css({
     "text-align": "center"
 });
 
-$("#main-content").append('<a id="trailyt" href="https://discord.gg/4qw3tH7" target="_blank">AP CLAN</a>');
+$("#main-content").append('<a id="trailyt" href="https://discord.gg/fyRBPGc" target="_blank">Mr Clan</a>');
 $("#trailyt").css({
     "border-style": "solid",
     "border-width": "1px",
