@@ -55,18 +55,17 @@ $("#server-tab-ap").css({
 $('#btn-play').text('Mr Spawn');
 $('#btn-servers').text('Servers');
 $('#profile-clan-membership').text('F̶S̶⋑ Frozen Sorrows');
-$(".main-bottom-left").append('<a id="fsdiscord" href="https://discord.gg/fyRBPGc" target="_blank">Discord</a>');
-$("#fsdiscord").css({
+$("#main-content").append('<a id="trailyt" href="https://discord.gg/fyRBPGc" target="_blank">Mr_Clan</a>');
+$("#trailyt").css({
     "border-style": "solid",
     "border-width": "1px",
-    "border-color": "#fff",
-    "background-color": "rgba(23, 22, 23, 0.9)",
-    "margin-bottom": "8px",
-    "border-radius": "10px",
+    "border-color": "red",
+    "background-color": "rgba(23, 22, 23, 0)",
+    "border-radius": "15px",
     "padding": "0 10px 3px 10px",
-    "color": "#00ffff",
+    "color": "red",
     "font-size": "20px",
-    "text-align": "right"
+    "text-align": "center"
 });
 
 GM_addStyle ('* body {cursor: url(http://i.imgur.com/inmtCDl.png)16 16, auto;}');
