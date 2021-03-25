@@ -1,59 +1,14 @@
 // ==UserScript==
 // @name         Mr LoKo1 YT
-// @namespace    
-// @version      0.4.0
-// @description  what
-// @author       Mr LoKo1 YT
 // @match        https://gota.io/web/*
 // @grant        GM_addStyle
-// @contributor  YT
-// @icon         https://i.imgur.com/6QczCjH.png
 // ==/UserScript==
 
-addStyleSheet('@import url(https://fonts.googleapis.com/css?family=Karla);');
 
-function addStyleSheet(style){
-  var getHead = document.getElementsByTagName("HEAD")[0];
-  var cssNode = window.document.createElement( 'style' );
-  var elementStyle= getHead.appendChild(cssNode);
-  elementStyle.innerHTML = style;
-  return elementStyle;
-}
-
-var fillTextz = CanvasRenderingContext2D.prototype.fillText;
-CanvasRenderingContext2D.prototype.fillText = function(){
-    var argumentz = arguments;
-    if(this.canvas.id == 'leaderboard-canvas'){
-    this.font = 'bold 15px Karla';
-    }
-    if(this.canvas.id == 'minimap-canvas'){
-    this.font = 'bold 15px Karla';
-    }
-    if(this.canvas.id == 'party-canvas'){
-    this.font = 'bold 15px Karla';
-    }
-    fillTextz.apply(this, arguments);
-};
-
-$( "#btn-trello" ).remove();
-$(".main-bottom-links").remove();
-$(".current-status").remove();
-$('#server-tab-eu').text('Europa :v');
-$("#server-tab-eu").css({
-    "color":"green"
-});
-$('#server-tab-na').text('Los Viciacos');
-$("#server-tab-na").css({
-    "color":"red"
-});
-$('#server-tab-ap').text('rusos');
-$("#server-tab-ap").css({
-    "color":"orange"
-});
 $('#btn-play').text('Mr Spawn');
-$('#btn-spec').text('Espectador');
-$('#profile-clan-membership').text('Mr遊 - Mr Clan');
-$(".main-bottom-left").append('<a id="APDiscord" href=" target="https://discord.gg/fyRBPGc"_blank">Discord</a>');
+$('#btn-spec').text('Espectadores');
+$('#profile-clan-membership').text('ΛΡ遊 - AP Clan');
+$(".main-bottom-left").append('<a id="APDiscord" href=" target="https://discord.gg/cjsUqt9"_blank">Discord</a>');
 $("#umdiscord").css({
     "border-style": "solid",
     "border-width": "1px",
@@ -67,7 +22,7 @@ $("#umdiscord").css({
     "text-align": "center"
 });
 
-$("#main-content").append('<a id="trailyt" href="https://discord.gg/fyRBPGc" target="_blank">Mr Clan</a>');
+$("#main-content").append('<a id="trailyt" href="https://discord.gg/4qw3tH7" target="_blank">AP CLAN</a>');
 $("#trailyt").css({
     "border-style": "solid",
     "border-width": "1px",
@@ -78,14 +33,4 @@ $("#trailyt").css({
     "color": "red",
     "font-size": "20px",
     "text-align": "center"
-});
-
-GM_addStyle ('* body {cursor: url(http://i.imgur.com/inmtCDl.png)16 16, auto;}');
-
-$("#main-content").append('<div id="version"><p>Version: Beta<br>Report Bugs On My Discord "Gonzalez Andres#8342"</p><div>');
-$("#version").css({
-    "text-align":"center",
-    "font-size":"12px",
-    "color":"white",
-    "margin-top":"3px"
 });
