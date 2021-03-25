@@ -6,19 +6,45 @@
 // ==/UserScript==
 
 
+$( "#btn-trello" ).remove();
+$(".main-bottom-links").remove();
+$(".current-status").remove();
+$('#server-tab-eu').text('Europa :v');
+$("#server-tab-eu").css({
+    "color":"green"
+});
+$('#server-tab-na').text('Los Viciacos');
+$("#server-tab-na").css({
+    "color":"red"
+});
+$('#server-tab-ap').text('rusos');
+$("#server-tab-ap").css({
+    "color":"orange"
+});
+
 $('#btn-play').text('Mr Spawn');
-$('#btn-spec').text('Espectadores');
-$('#profile-clan-membership').text('ΛΡ遊 - AP Clan');
-$(".main-bottom-left").append('<a id="APDiscord" href=" target="https://discord.gg/fyRBPGc"_blank">Discord</a>');
-$("#umdiscord").css({
+$('#btn-servers').text('Servers');
+$('#profile-clan-membership').text('F̶S̶⋑ Frozen Sorrows');
+$("#fsdiscord").css({
     "border-style": "solid",
     "border-width": "1px",
-    "border-color": "aqua",
-    "background-color": "rgba(23, 22, 23, 0)",
+    "border-color": "#fff",
+    "background-color": "rgba(23, 22, 23, 0.9)",
     "margin-bottom": "8px",
-    "border-radius": "15px",
+    "border-radius": "10px",
     "padding": "0 10px 3px 10px",
-    "color": "aqua",
+    "color": "#00ffff",
     "font-size": "20px",
     "text-align": "center"
+
+});
+
+
+//Custom Crosshair
+GM_addStyle ('* body {cursor: url(http://i.imgur.com/inmtCDl.png)16 16, auto;}');
+$("#version").css({
+    "text-align":"center",
+    "font-size":"12px",
+    "color":"white",
+    "margin-top":"3px"
 });
