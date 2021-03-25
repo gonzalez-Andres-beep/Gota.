@@ -22,11 +22,11 @@ $("#server-tab-ap").css({
     "color":"orange"
 });
 
+$('#btn-options').text('Opciones');
+$('#btn-Theme').text('Tema');
 $('#btn-play').text('Mr Spawn');
 $('#btn-servers').text('Servidores');
 $('#btn-Spectate').text('Espectador');
-$('#btn-options').text('Opciones');
-$('#btn-Theme').text('Tema');
 $('#profile-clan-membership').text('F̶S̶⋑ Frozen Sorrows');
 $("#fsdiscord").css({
     "border-style": "solid",
