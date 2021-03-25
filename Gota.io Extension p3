@@ -7,7 +7,6 @@
 // @match        https://gota.io/web/*
 // @grant        GM_addStyle
 // @contributor  YT
-// @require      https://code.jquery.com/jquery-3.3.1.min.js
 // @icon         https://i.imgur.com/6QczCjH.png
 // ==/UserScript==
 
